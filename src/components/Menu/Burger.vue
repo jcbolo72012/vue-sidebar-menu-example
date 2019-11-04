@@ -51,6 +51,7 @@ button:focus {
   z-index: 999;
   border: 0;
   border-radius: 0;
+  margin: 1px 15px;
   background-color: transparent;
   pointer-events: all;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -59,7 +60,7 @@ button:focus {
 .burger-bar {
   background-color: #130f40;
   position: absolute;
-  top: 50%;
+  top: 85%;
   right: 6px;
   left: 6px;
   height: 2px;
